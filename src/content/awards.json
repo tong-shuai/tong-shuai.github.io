@@ -1,0 +1,13 @@
+[
+    {
+        "category": "Honors", "list": [
+            {"date": "2023", "content": "The First Prize Scholarship, Tsinghua University | 清华大学综合一等奖学金"},
+            {"date": "2022", "content": "The First Prize Scholarship, Tsinghua University | 清华大学综合一等奖学金"},
+            {"date": "2021", "content": "Best Paper Award | ACM SenSys 2021"},
+            {"date": "2020", "content": "National Scholarship, Ministry of Education | 国家奖学金"},
+            {"date": "2019", "content": "Outstanding Undergraduate, Nankai University | 南开大学优秀本科毕业生"},
+            {"date": "2019", "content": "Excellent Graduation Thesis, Nankai University | 南开大学优秀毕业论文"},
+            {"date": "2018", "content": "National Scholarship, Ministry of Education | 国家奖学金"}
+        ]
+    }
+]

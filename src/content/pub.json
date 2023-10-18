@@ -1,0 +1,258 @@
+[    
+    {
+        "bibtex": "@inproceedings{966432228, author={Tong, Shuai and Wang, Jiliang and Yang, Jing and Liu, Yunhao and Zhang, Jun},   booktitle={ACM SenSys},    title={Citywide LoRa Network Deployment and Operation: Measurements, Analysis, and Implications}, year={2023}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": null,
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, as a representative Low-Power Wide-Area Network (LPWAN) technology, holds tremendous potential for various city and industrial applications. However, as there are few real large-scale deployments, it is unclear whether and how well LoRa can eventually meet its prospects. In this paper, we demystify the real performance of LoRa by deploying and measuring a citywide LoRa network consisting of 100 gateways and 19,821 LoRa end nodes, covering an area of 130 km for 12 applications. Our measurement focuses on four major perspectives: (i) Performance of applications running on the citywide LoRa network; (ii) Infrastructure efficiency and deployment optimization; (iii) Physical layer signal features and link performance; (iv) Energy consumption and cost comparison between LoRa and other licensed LPWANs. The results reveal that LoRa performance in urban settings is bottlenecked by the prevalent blind spots, and there is a gap between the gateway efficiency and network coverage for the infrastructure deployment. Besides, we find that LoRa links at the physical layer are susceptible to environmental variations, and LoRa and other LPWANs show diverse costs for different scenarios. Our measurement provides insights for large-scale LoRa network deployment and also for future academic research to fully unleash the potential of LoRa."
+    }, 
+
+    {
+        "bibtex": "@inproceedings{966433328,   author={Song, Zhipeng and Tong, Shuai and Wang, Jiliang},   booktitle={IEEE ICNP},    title={LoSense: Integrated Long-Range Sensing and Communication with LoRa Signals},    year={2023}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/ICNP23_LoSense.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "As a representative Low Power Wide Area Network (LPWAN) technology, LoRa is expected to connect devices for various Internet of Things (IoT) applications. Many IoT applications require both long-range communications and high precise sensing at the same time, while state of the art approaches fail to achieve this. We propose LoSense, which enables LoRa movement sensing alongside the regular data transmissions. LoSense recovers the fine-grained trajectory of a LoRa transmitter only based on its communication signals during the data transmission period. We address practical challenges for LoSense designs. We propose the active tracking model for detecting movements of active LoRa transmitters. We use dual antennas at the receiver to eliminate synchronization offsets between LoRa transmitters and the receiver. We design feature amplification and signal enhancement schemes to combat noise and interference. We prototype LoSense with commodity LoRa transmitters and USRP receivers, and extensively evaluate its performance. The results show that LoSense tracks movements of active LoRa transmitters with 2.32 cm distance accuracy and 0.089 Hz frequency accuracy from a sensing range of 150m, supporting regular data communication at the same time."
+    }, 
+
+    {
+        "bibtex": "@ARTICLE{9664328,   author={Tong, Shuai and Xu, Zhenqiang and Wang, Jiliang},   journal={IEEE Transactions on Mobile Computing},    title={CoLoRa: Enabling Multi-Packet Reception in LoRa Networks},    year={2023},   volume={22},   number={6},   pages={3224-3240},   doi={10.1109/TMC.2021.3138495}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/TMC23.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, as a representative Low-Power Wide Area Network (LPWAN) technology, has emerged as a promising platform for connecting the Internet of Things (IoTs). It enables low-rate communications over upto tens of kilometers with a 10-year battery lifetime. However, practical LoRa deployments suffer from collisions, given the dense deployment of devices and the wide coverage area. We propose CoLoRa, an approach to decompose large numbers of concurrent transmissions from one collision and enable multi-packet reception in LoRa networks. At the heart of CoLoRa, we utilize the packet time offset to disentangle collided packets. CoLoRa incorporates several novel techniques to address practical challenges. (1) We translate time offset, which is difficult to measure, to frequency features that can be reliably measured. (2) We propose a method to extract peak features from low-SNR LoRa signals iteratively. (3) We address frequency shift incurred by carrier frequency offset and time offset for LoRa decoding. We implement CoLoRa on USRP N210 and evaluate its performance in both indoor and outdoor networks. CoLoRa is implemented in software at the base station, and it can work for COTS LoRa nodes. The evaluations show that CoLoRa improves the network throughput by 3.4× compared with Choir and 14× compared with LoRaWAN."
+    },        
+
+    {
+        "bibtex": "@article{10.1145/3546869, author = {Xu, Zhenqiang and Tong, Shuai and Xie, Pengjin and Wang, Jiliang}, title = {From Demodulation to Decoding: Toward Complete LoRa PHY Understanding and Implementation}, year = {2023}, issue_date = {November 2022}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, volume = {18}, number = {4}, issn = {1550-4859}, url = {https://doi.org/10.1145/3546869}, doi = {10.1145/3546869}, journal = {ACM Transactions on Sensor Networks}, month = {jan}, articleno = {64}, numpages = {27}, keywords = {physical layer, LoRa, Low-power wide-area network} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/ToSN23.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, as a representative of Low Power Wide Area Network technology, has attracted significant attention from both academia and industry. However, the current understanding of LoRa is far from complete, and implementations have a large performance gap in SNR and packet reception rate. This article presents a comprehensive understanding of LoRa physical layer protocol (PHY) and reveals the fundamental reasons for the performance gap. We present the first full-stack LoRa PHY implementation with a provable performance guarantee. We enhance the demodulation to work under extremely low SNR (-20 dB) and analytically validate the performance, where many existing works require SNR &gt; 0. We derive the order and parameters of decoding operations, including dewhitening, error correction, deinterleaving, and so on, by leveraging LoRa features and packet manipulation. We implement a complete real-time LoRa on the GNU Radio platform and conduct extensive experiments. Our method can achieve (1) a 100% decoding success rate while existing methods can support at most 66.7%, (2) -142 dBm sensitivity, which is the limiting sensitivity of the commodity LoRa, and (3) a 3,600-m communication range in the urban area, even better than commodity LoRa under the same setting."
+    },    
+
+    {
+        "bibtex": "@inproceedings{10.1145/3495243.3560524, author = {Tong, Shuai and He, Yangliang and Liu, Yunhao and Wang, Jiliang}, title = {De-Spreading over the Air: Long-Range CTC for Diverse Receivers with LoRa}, year = {2022}, isbn = {9781450391818}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, booktitle = {ACM MobiCom}, pages = {42–54}, numpages = {13}, keywords = {CTC, internet of things, LoRa, LPWAN}, location = {Sydney, NSW, Australia}, series = {MobiCom '22} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MobiCom22_L2X.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "Unlicensed LPWANs on ISM bands share the spectrum with various wireless techniques, such as Wi-Fi, Bluetooth, and ZigBee. The explosion of IoT deployments calls for an increasing need for long-range cross-technology communication (CTC) between LPWANs and other techniques. Yet, existing technologies cannot achieve real long-range CTC for commodity wireless. We propose L2X, which provides long-range CTC to diverse receivers with LoRa transmitters. At the heart of L2X, we design an energy-concentrating demodulation mechanism that de-spreads LoRa chirps over the air. Therefore, L2X enables non-LoRa receivers to detect and demodulate LoRa signals even under extremely low SNR. We address practical challenges in L2X design. We propose a packet detection method to detect low-SNR LoRa transmissions at non-LoRa receivers. To decode LoRa transmissions, we accurately synchronize the demodulation window with incoming packets and propose a cross-domain demodulation approach to enhance the demodulation SNR. We implement L2X, all using commodity devices, and extensively evaluate its performance. The results show that L2X achieves 1.2 km CTC with the signal -9 dB below the noise floor, improving the distance by 30X compared with state-of-the-arts."
+    },
+
+
+    {
+        "bibtex": "@inproceedings{10.1145/3485730.3485928, author = {Li, Chenning and Guo, Hanqing and Tong, Shuai and Zeng, Xiao and Cao, Zhichao and Zhang, Mi and Yan, Qiben and Xiao, Li and Wang, Jiliang and Liu, Yunhao}, title = {NELoRa: Towards Ultra-Low SNR LoRa Communication with Neural-Enhanced Demodulation}, year = {2021}, isbn = {9781450390972}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, booktitle = {ACM SenSys}, pages = {56–68}, numpages = {13}, location = {Coimbra, Portugal}, series = {SenSys '21} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Zhichao Cao"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MicNest_tmc_earlyaccess.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":"https://sensys.acm.org/2021/program/"
+        },
+        "figure": null,
+        "abstract": "Low-Power Wide-Area Networks (LPWANs) are an emerging Internet-of-Things (IoT) paradigm marked by low-power and long-distance communication. Among them, LoRa is widely deployed for its unique characteristics and open-source technology. By adopting the Chirp Spread Spectrum (CSS) modulation, LoRa enables low signal-to-noise ratio (SNR) communication. However, the standard demodulation method does not fully exploit the properties of chirp signals, thus yields a sub-optimal SNR threshold under which the decoding fails. Consequently, the communication range and energy consumption have to be compromised for robust transmission. This paper presents NELoRa, a neural-enhanced LoRa demodulation method, exploiting the feature abstraction ability of deep learning to support ultra-low SNR LoRa communication. Taking the spectrogram of both amplitude and phase as input, we first design a mask-enabled Deep Neural Network (DNN) filter that extracts multi-dimension features to capture clean chirp symbols. Second, we develop a spectrogram-based DNN decoder to decode these chirp symbols accurately. Finally, we propose a generic packet demodulation system by incorporating a method that generates high-quality chirp symbols from received signals. We implement and evaluate NELoRa on both indoor and campus-scale outdoor testbeds. The results show that NELoRa achieves 1.84-2.35 dB SNR gains and extends the battery life up to 272% (~0.38-1.51 years) in average for various LoRa configurations."
+    },
+
+    {
+        "bibtex": "@article{10.1109/TNET.2021.3131704, author = {Tong, Shuai and Wang, Jiliang and Liu, Yunhao}, title = {Combating Packet Collisions Using Non-Stationary Signal Scaling in LPWANs}, year = {2021}, issue_date = {June 2022}, publisher = {IEEE Press}, volume = {30}, number = {3}, issn = {1063-6692}, url = {https://doi.org/10.1109/TNET.2021.3131704}, doi = {10.1109/TNET.2021.3131704}, journal = {IEEE/ACM Transactions on Networking}, month = {dec}, pages = {1104–1117}, numpages = {14} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/ToN22.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, a representative Low-Power Wide Area Network (LPWAN) technology, has been shown as a promising platform to connect Internet of Things. Practical LoRa deployments, however, suffer from collisions, especially in dense networks and wide coverage areas expected by LoRa applications. Existing collision resolving approaches do not exploit the modulation properties of LoRa and thus cannot work well for low-SNR LoRa signals. We propose <italic>NScale</italic> to decompose concurrent transmissions by leveraging subtle inter-packet time offsets for low SNR LoRa collisions. NScale (1) translates subtle time offsets, which are vulnerable to noise, to robust frequency features, and (2) further amplifies the time offsets by non-stationary signal scaling, i.e., scaling the amplitude of a symbol differently at different positions. In practical implementation, we propose a noise resistant iterative symbol recovery method to combat symbol distortion in low SNR, and address frequency shifts incurred by CFO and packet time offsets in decoding. We propose optimized designs for diminishing the time costs of computation-intensive tasks and meeting the real-time requirements of LoRa collision resolving. We theoretically show that NScale introduces &lt; 1.7 dB SNR loss compared with the original LoRa. We implement NScale on USRP N210 and evaluate its performance in both indoor and outdoor networks. NScale is implemented in software at the gateway and can work for COTS LoRa nodes without any modification. The evaluation results show that NScale improves the network throughput by 3.3 times for low SNR collided signals compared with other state-of-the-art methods."
+    },
+
+    {
+        "bibtex": "@inproceedings{10.1145/3447993.3483250, author = {Tong, Shuai and Shen, Zilin and Liu, Yunhao and Wang, Jiliang}, title = {Combating Link Dynamics for Reliable Lora Connection in Urban Settings}, year = {2021}, isbn = {9781450383424}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3447993.3483250}, doi = {10.1145/3447993.3483250}, booktitle = {ACM MobiCom}, pages = {642–655}, numpages = {14}, keywords = {LoRa, internet of things, LPWAN, selective interfering}, location = {New Orleans, Louisiana}, series = {MobiCom '21} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MobiCom21_Falcon.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, as a representative Low-Power Wide-Area Network (LPWAN) technology, can provide long-range communication for battery-powered IoT devices with a 10-year lifetime. LoRa links in practice, however, experience high dynamics in various environments. When the SNR falls below the threshold (e.g., in the building), a LoRa device disconnects from the network. We propose Falcon, which addresses the link dynamics by enabling data transmission for very low SNR or even disconnected LoRa links. At the heart of Falcon, we reveal that low SNR LoRa links that cannot deliver packets can still introduce interference to other LoRa transmissions. Therefore, Falcon transmits data bits on the low SNR link by selectively interfering with other LoRa transmissions. We address practical challenges in Falcon design. We propose a low-power channel activity detection method to detect other LoRa transmissions for selective interference. To interfere with the so-called interference-resilient LoRa, we accurately estimate the time and frequency offsets on LoRa packets and propose an adaptive frequency adjusting strategy to maximize the interference. We implement Falcon, all using commercial off-the-shelf LoRa devices, and extensively evaluate its performance. The results show that Falcon can provide reliable communication links for disconnected LoRa devices and achieves the SNR boundary upto 7.5 dB lower than that of standard LoRa."
+    },
+
+    {
+        "bibtex": "@INPROCEEDINGS{9158432,   author={Xu, Zhenqiang and Tong, Shuai and Xie, Pengjin and Wang, Jiliang},   booktitle={IEEE SECON},    title={FlipLoRa: Resolving Collisions with Up-Down Quasi-Orthogonality},    year={2020},   volume={},   number={},   pages={1-9},   doi={10.1109/SECON48991.2020.9158432}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/SECON20_FlipLoRa.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa is recently a rising star in Low Power Wide Area Network (LPWAN) family to provide low power and long range communication for large number of devices in Internet of Things. LoRa is based on Chirp Spread Spectrum (CSS) and uses chirp frequency shift to encode data. It has been shown that collision significantly degrades LoRa performance in practice. We propose FlipLoRa, a new mechanism to disentangle LoRa collisions, which allows concurrent transmission of multiple packets. The key idea of FlipLoRa is to utilize the quasi-orthogonality between upchirp and downchirp. FlipLoRa encodes packets with interleaved upchirps and downchirps instead of only using upchirps as in LoRa. We then propose a novel method to disentangle chirps and decode multiple collided packets. To evaluate the performance, we formally prove the quasi-orthogonality and analyze its applicable conditions. We validate the performance improvement by theoretical analysis. Further, we implement FlipLoRa on software-defined radio and extensively evaluate its performance for real LoRa networks. The evaluation results show that FlipLoRa can improve the throughput by 3.84x over LoRa physical layer."
+    },
+
+    {
+        "bibtex": "@INPROCEEDINGS{9155509,   author={Tong, Shuai and Xu, Zhenqiang and Wang, Jiliang},   booktitle={IEEE INFOCOM},    title={CoLoRa: Enabling Multi-Packet Reception in LoRa},    year={2020},   volume={},   number={},   pages={2303-2311},   doi={10.1109/INFOCOM41043.2020.9155509}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/INFOCOM20_CoLoRa.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, more generically Low-Power Wide Area Network (LPWAN), is a promising platform to connect Internet of Things. It enables low-cost low-power communication at a few kbps over upto tens of kilometers with a 10-year battery lifetime. However, practical LPWAN deployments suffer from collisions, given the dense deployment of devices and wide coverage area. We propose CoLoRa, a protocol to decompose large numbers of concurrent transmissions from one collision in LoRa networks. At the heart of CoLoRa, we utilize packet time offset to disentangle collided packets. CoLoRa incorporates several novel techniques to address practical challenges. (1) We translate time offset, which is difficult to measure, to frequency features that can be reliably measured. (2) We propose a method to cancel inter-packet interference and extract accurate feature from low SNR LoRa signal. (3) We address frequency shift incurred by CFO and time offset for LoRa decoding. We implement CoLoRa on USRP N210 and evaluate its performance in both indoor and outdoor networks. CoLoRa is implemented in software at the base station and it can work for COTS LoRa nodes. The evaluation results show that CoLoRa improves the network throughput by 3.4× compared with Choir and by 14× compared with LoRaWAN."
+    }, 
+
+    {
+        "bibtex": "@inproceedings{10.1145/3386901.3388913,  author = {Tong, Shuai and Wang, Jiliang and Liu, Yunhao}, title = {Combating Packet Collisions Using Non-Stationary Signal Scaling in LPWANs}, year = {2020}, isbn = {9781450379540}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, booktitle = {ACM MobiSys}, pages = {234–246}, numpages = {13}, keywords = {LPWAN, LoRa, internet of things, collision resolution}, location = {Toronto, Ontario, Canada}, series = {MobiSys '20} }",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MobiSys20_NScale.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award":null
+        },
+        "figure": null,
+        "abstract": "LoRa, a representative Low-Power Wide Area Network (LPWAN) technology, has been shown as a promising platform to connect Internet of Things. Practical LoRa deployments, however, suffer from collisions, especially in dense networks and wide coverage areas expected by LoRa applications. Existing collision resolution approaches do not exploit the coding properties of LoRa and thus cannot work well for low SNR LoRa signals. We propose NScale to decompose concurrent transmissions by leveraging subtle inter-packet time offsets for low SNR LoRa collisions. NScale (1) translates subtle time offsets, which are vulnerable to noise, to robust frequency features, and (2) further amplifies the time offsets by non-stationary signal scaling, i.e., scaling the amplitude of a symbol differently at different positions. In practical implementation, we propose a noise resistant iterative symbol recovery method to combat symbol distortion in low SNR, and address frequency shifts incurred by CFO and packet time offsets in decoding. We theoretically show that NScale introduces &lt; 1.7 dB SNR loss compared with the original LoRa. We implement NScale on USRP N210 and evaluate its performance in both indoor and outdoor networks. NScale is implemented in software at the gateway and can work for COTS LoRa nodes without any modification. The evaluation results show that NScale improves the network throughput by 3.3x for low SNR collided signals compared with other state-of-the-art methods."
+    }
+    
+]
+
+
