@@ -1,4 +1,4 @@
-# Weiguo's Academic Homepage
+# This repository is forked from Weiguo's Academic Homepage (https://github.com/wangwg1996/wangwg1996.github.io)
 
 👋 Hi there, this is my academic homepage built on [vue.js](https://vuejs.org/), [marked](https://github.com/markedjs/marked), [citation-js](https://github.com/citation-js/citation-js) and [bolt.css](https://github.com/tbolt/boltcss).
 
