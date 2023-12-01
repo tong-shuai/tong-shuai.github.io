@@ -137,6 +137,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
           <CodeBadge :codeUrl="pub.resources.code" />
           <PageBadge :demoUrl="pub.resources.demo" />
           <AwardBadge :demoUrl="pub.resources.award" />
+          <AwardBadge2 :demoUrl="pub.resources.award2" />
 
         </div>
         

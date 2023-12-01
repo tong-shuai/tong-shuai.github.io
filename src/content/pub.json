@@ -12,11 +12,11 @@
         },
         "note": "",
         "resources": {
-            "pdf": null,
+            "pdf": "./files/PDF/SenSys23_CityWAN.pdf",
             "slides": null,
             "code": null,
             "demo": null,
-            "award":null
+            "award2":"https://sensys.acm.org/2023/award/"
         },
         "figure": null,
         "abstract": "LoRa, as a representative Low-Power Wide-Area Network (LPWAN) technology, holds tremendous potential for various city and industrial applications. However, as there are few real large-scale deployments, it is unclear whether and how well LoRa can eventually meet its prospects. In this paper, we demystify the real performance of LoRa by deploying and measuring a citywide LoRa network consisting of 100 gateways and 19,821 LoRa end nodes, covering an area of 130 km for 12 applications. Our measurement focuses on four major perspectives: (i) Performance of applications running on the citywide LoRa network; (ii) Infrastructure efficiency and deployment optimization; (iii) Physical layer signal features and link performance; (iv) Energy consumption and cost comparison between LoRa and other licensed LPWANs. The results reveal that LoRa performance in urban settings is bottlenecked by the prevalent blind spots, and there is a gap between the gateway efficiency and network coverage for the infrastructure deployment. Besides, we find that LoRa links at the physical layer are susceptible to environmental variations, and LoRa and other LPWANs show diverse costs for different scenarios. Our measurement provides insights for large-scale LoRa network deployment and also for future academic research to fully unleash the potential of LoRa."
@@ -128,7 +128,7 @@
         },
         "note": "",
         "resources": {
-            "pdf": "./files/PDF/MicNest_tmc_earlyaccess.pdf",
+            "pdf": "./files/PDF/SenSys21_NELoRa.pdf",
             "slides": null,
             "code": null,
             "demo": null,
