@@ -7,7 +7,7 @@ import VideoBadge from './badges/VideoBadge.vue'
 import CodeBadge from './badges/CodeBadge.vue'
 import DemoBadge from './badges/DemoBadge.vue'
 import AwardBadge from './badges/AwardBadge.vue'
-import AwardBadge from './badges/AwardBadge2.vue'
+import AwardBadge2 from './badges/AwardBadge2.vue'
 import PageBadge from './badges/PageBadge.vue'
 import { AclCsl, Gb7714Csl } from '../utils'
 
