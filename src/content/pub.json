@@ -1,5 +1,28 @@
 [    
     {
+        "bibtex": "@inproceedings{tmc2024pyramid, author={Wang, Jiliang and Tong, Shuai and Xu, Zhenqiang and Xie, Pengjin},   booktitle={IEEE Transactions on Mobile Computing (TMC)},    title={Real-Time Concurrent LoRa Transmissions Based on Peak Tracking}, year={2024}} ",
+        "authors": {
+            "boldAuthors": [
+                "Shuai Tong"
+            ],
+            "correspondingAuthors": [
+                "Jiliang Wang"
+            ],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/TMC24_pyramid.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null,
+            "award2":null
+        },
+        "figure": null,
+        "abstract": "LoRa, as a representative Lower Power Wide Area Network (LPWAN) technology, shows great potential in providing low power and long range wireless communication. Real LoRa deployments, however, suffer from severe collisions. Existing collision decoding methods cannot work well for low SNR LoRa signals. Most LoRa collision decoding methods process collisions offline and cannot support real-time collision decoding in practice. To address these problems, we propose Pyramid, a real-time LoRa collision decoding approach. To the best of our knowledge, this is the first real-time multi-packet LoRa collision decoding approach in low SNR. Pyramid exploits the subtle packet offset to separate packets in a collision. The core of Pyramid is to combine signals in multiple windows and transfers variation of chirp length in multiple windows to robust features in the frequency domain that are resistant to noise. We address practical challenges including accurate peak recovery and feature extraction in low SNR signals of collided packets. We theoretically prove that Pyramid incurs a very small SNR loss (< 0.56 dB) to original LoRa transmissions. We implement Pyramid using USRP N210 and evaluate its performance in a 20-nodes network. Evaluation results show that Pyramid achieves real-time collision decoding and improves the throughput by 2.11 times."
+    }, 
+     
+    {
         "bibtex": "@inproceedings{966432228, author={Tong, Shuai and Wang, Jiliang and Yang, Jing and Liu, Yunhao and Zhang, Jun},   booktitle={ACM SenSys},    title={Citywide LoRa Network Deployment and Operation: Measurements, Analysis, and Implications}, year={2023}} ",
         "authors": {
             "boldAuthors": [
