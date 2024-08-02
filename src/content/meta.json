@@ -1,9 +1,0 @@
-{
-    "name": "Shuai Tong (童率)",
-    "description": "<b>Biography:</b> I am currently a fifth-year Ph.D. student from Tsinghua University. My supervisor is professor [Jiliang Wang](http://tns.thss.tsinghua.edu.cn/~jiliang). I received my B.S. degree from Nankai University in 2019. My research interests include Internet of Things, LoRa, and mobile computing. I enjoy building proof-of-concepts for innovative applications, encompassing both hardware and software aspects.<br> <b>I am currently on the job market!</b> <br>E-Mail: tongshuai.ts AT gmail.com",
-    "contact": {
-        "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=PWbSzHEAAAAJ&hl=en"},
-        "ResearchGate": {"icon": "ai ai-researchgate", "url": "https://www.researchgate.net/profile/Shuai-Tong-2"},
-        "ORCID": {"icon": "ai ai-orcid", "url": "https://orcid.org/0000-0002-5039-5229"}
-    }
-}
